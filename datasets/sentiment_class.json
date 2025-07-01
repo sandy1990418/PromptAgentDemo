@@ -1,0 +1,13 @@
+{
+    "name": "sentiment_class",
+    "task_prefix": "Identify the relation between the following premises and hypotheses, choosing from the options 'entailment' or 'non-entailment'.\n",
+    "example_output_prefix": "\nRelation: ",
+    "examples": [
+        {"text": "I love this product!", "sentiment": "positive"},
+        {"text": "It was a horrible experience.", "sentiment": "negative"},
+        {"text": "The food was amazing!", "sentiment": "positive"},
+        {"text": "Worst customer service ever.", "sentiment": "negative"},
+        {"text": "This app is so useful!", "sentiment": "positive"},
+        {"text": "I'm really disappointed with the quality.", "sentiment": "negative"}   
+    ]
+}
