@@ -1,5 +1,5 @@
 # basic settings
-task_name: bigbench # bigbench | ncbi | ... | or your own task
+task_name: sentiment_class # bigbench | ncbi | ... | or your own task
 search_algo: mcts # mcts | beam_search
 print_log: true
 log_dir: ./logs/
